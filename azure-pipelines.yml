@@ -44,7 +44,3 @@ steps:
     arguments: '--no-restore --configuration Release'
     projects: '**/*.csproj'
     
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
